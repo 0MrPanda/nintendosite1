@@ -1,0 +1,92 @@
+
+
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+.homecolor {
+    font-family: 'Saira Stencil One', cursive;
+    color: black;
+}
+
+.aboutcolor {
+    font-family: 'Saira Stencil One', cursive;
+    color: black;
+}
+
+.othercolor {
+    font-family: 'Saira Stencil One', cursive;
+    color: black;
+}
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 100px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    z-index: 1;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carouselp {
+      font-size: 20px;
+  }
+
+  .nint {
+      position: relative;
+  }
+
+  .shops {
+    margin-left: 350px;
+    
+  }
+
+  .body2 {
+      background-image: url(img/controllevolution.jpg)
+  }
